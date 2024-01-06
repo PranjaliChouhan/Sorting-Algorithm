@@ -1,0 +1,14 @@
+#chart {
+    width: 1000px;
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.bar {
+    width: 30px;
+    background-color: steelblue;
+}
