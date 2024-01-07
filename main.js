@@ -127,6 +127,11 @@ async function merge(bars, heights, low, mid, high) {
 }
 
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
 
 async function shellSort() {
     const bars = document.querySelectorAll('.bar');
